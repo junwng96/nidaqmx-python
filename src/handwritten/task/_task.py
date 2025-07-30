@@ -297,6 +297,7 @@ class Task:
         self._timing = Timing(task_handle, interpreter)
         self._triggers = Triggers(task_handle, interpreter)
         self._out_stream = OutStream(self, interpreter)
+        self._single_point = SinglePoint(task_handle, interpreter)
 
         self._event_handler_lock = threading.Lock()
 

@@ -15621,16 +15621,14 @@ enums = {
         'values': [
             {
                 'documentation': {
-                    'description': 'xx No memory is connected to ID Pin.',
-                    'python_description': 'No memory is connected to ID Pin.'
+                    'description': 'No memory is connected to ID Pin.'
                 },
                 'name': 'MEMORY_NOT_PRESENT',
                 'value': 16205
             },
             {
                 'documentation': {
-                    'description': 'xx The memory is connected to ID Pin.',
-                    'python_description': 'The memory is connected to ID Pin.'
+                    'description': 'The memory is connected to ID Pin.'
                 },
                 'name': 'MEMORY_PRESENT',
                 'value': 16206

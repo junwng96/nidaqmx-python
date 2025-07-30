@@ -53,7 +53,7 @@ script_info = {
             "templateFile": "task\\channels\\_di_channel.py.mako",
         },
         {
-            "relativeOutputPath": "task\\channels\\_do_channel.py", 
+            "relativeOutputPath": "task\\channels\\_do_channel.py",
             "templateFile": "task\\channels\\_do_channel.py.mako",
         },
         {
@@ -83,9 +83,9 @@ script_info = {
         {
             "relativeOutputPath": "task\\_timing.py",
             "templateFile": "task\\_timing.py.mako",
-        },  
+        },
         {
-            "relativeOutputPath": "scale.py", 
+            "relativeOutputPath": "scale.py",
             "templateFile": "scale.py.mako",
         },
         {
@@ -127,6 +127,10 @@ script_info = {
         {
             "relativeOutputPath": "task\\triggering\\_triggers.py",
             "templateFile": "task\\triggering\\_triggers.py.mako",
+        },
+        {
+            "relativeOutputPath": "task\\_single_point.py",
+            "templateFile": "task\\_single_point.py.mako",
         },
     ]
 }

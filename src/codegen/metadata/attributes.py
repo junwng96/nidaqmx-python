@@ -26795,6 +26795,13 @@ attributes = {
             'c_function_name': 'RealTimeNumOfWarmupIters',
             'calling_convention': 'StdCall',
             'ctypes_data_type': 'ctypes.c_uint',
+            'handle_parameters': {
+                'taskHandle': {
+                    'accessor': 'self._handle',
+                    'ctypes_data_type': 'lib_importer.task_handle',
+                    'cvi_name': 'taskHandle'
+                }
+            },
             'has_explicit_read_buffer_size': False,
             'has_explicit_write_buffer_size': False,
             'is_list': False,
@@ -26814,6 +26821,13 @@ attributes = {
             'c_function_name': 'RealTimeConvLateErrorsToWarnings',
             'calling_convention': 'StdCall',
             'ctypes_data_type': 'c_bool32',
+            'handle_parameters': {
+                'taskHandle': {
+                    'accessor': 'self._handle',
+                    'ctypes_data_type': 'lib_importer.task_handle',
+                    'cvi_name': 'taskHandle'
+                }
+            },
             'has_explicit_read_buffer_size': False,
             'has_explicit_write_buffer_size': False,
             'is_list': False,
@@ -26834,6 +26848,13 @@ attributes = {
             'calling_convention': 'StdCall',
             'ctypes_data_type': 'ctypes.c_int',
             'enum': 'WaitMode3',
+            'handle_parameters': {
+                'taskHandle': {
+                    'accessor': 'self._handle',
+                    'ctypes_data_type': 'lib_importer.task_handle',
+                    'cvi_name': 'taskHandle'
+                }
+            },
             'has_explicit_read_buffer_size': False,
             'has_explicit_write_buffer_size': False,
             'is_list': False,
@@ -26853,6 +26874,13 @@ attributes = {
             'c_function_name': 'RealTimeReportMissedSamp',
             'calling_convention': 'StdCall',
             'ctypes_data_type': 'c_bool32',
+            'handle_parameters': {
+                'taskHandle': {
+                    'accessor': 'self._handle',
+                    'ctypes_data_type': 'lib_importer.task_handle',
+                    'cvi_name': 'taskHandle'
+                }
+            },
             'has_explicit_read_buffer_size': False,
             'has_explicit_write_buffer_size': False,
             'is_list': False,
@@ -26873,6 +26901,13 @@ attributes = {
             'calling_convention': 'StdCall',
             'ctypes_data_type': 'ctypes.c_int',
             'enum': 'WaitMode4',
+            'handle_parameters': {
+                'taskHandle': {
+                    'accessor': 'self._handle',
+                    'ctypes_data_type': 'lib_importer.task_handle',
+                    'cvi_name': 'taskHandle'
+                }
+            },
             'has_explicit_read_buffer_size': False,
             'has_explicit_write_buffer_size': False,
             'is_list': False,

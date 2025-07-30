@@ -10,6 +10,7 @@ from nidaqmx import utils
 from nidaqmx.task.channels._channel import Channel
 from nidaqmx.task._export_signals import ExportSignals
 from nidaqmx.task._in_stream import InStream
+from nidaqmx.task._single_point import SinglePoint
 from nidaqmx.task._timing import Timing
 from nidaqmx.task.triggering._triggers import Triggers
 from nidaqmx.task._out_stream import OutStream

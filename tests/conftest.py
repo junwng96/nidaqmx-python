@@ -715,3 +715,9 @@ def thermistor_iex_teds_file_path(teds_assets_directory: pathlib.Path) -> pathli
 def thermistor_vex_teds_file_path(teds_assets_directory: pathlib.Path) -> pathlib.Path:
     """Returns a TEDS file path."""
     return teds_assets_directory / "ThermistorVex.ted"
+
+
+@pytest.fixture(scope="function")
+def sim_4311_device(system: nidaqmx.system.System) -> nidaqmx.system.Device:
+    """Gets simulated 4311 device information."""
+    return _device_by_product_type("PXIe-4311", DeviceType.SIMULATED, system)
